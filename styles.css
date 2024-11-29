@@ -118,7 +118,7 @@ cursor: pointer;
 
 body {
     zoom: 90%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .rodape >h4{
