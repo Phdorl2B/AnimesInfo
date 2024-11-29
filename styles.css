@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(style2.css);
+
+.principal{
+    display: flex;
+    background-color:#8862f0be ;
+    max-height: 100%;
+    max-height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.centro {
+    display: flexbox;
+    background-image: linear-gradient(to bottom, #EBE815, #8FE600);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 60em;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+.Titulo {
+    display: flexbox;
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    background-color: #8862f0be;
+    font-family: "Exo 2", sans-serif;
+    border-radius: 10px;
+    margin: 10px 4em 10px 4em;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.text {
+    display: flex;
+    background-color: #8862f0be;
+    color: black;
+    font-size: 20px;
+    margin-left: 73%;
+ }
+
+.hamburguer {
+    background-image: url("img/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+display: block;
+cursor: pointer;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;;
+    
+}
+
+.lista-menu
+ .lista {
+ background-color: #8862f0be;
+ font-size:20px;
+ font-weight: bold;
+ font-family:monospace, sans-serif;
+ color: black;
+ list-style-type: none;
+ margin-right: 20px;
+ position: relative;
+ display: inline-table;
+ }
+
+.ancora:checked ~ .hamburguer-label .lista-menu{
+    display: block;
+    position: relative;
+    align-items: center;   
+}
+.hamburguer-label{
+    width:4%;
+    display: grid;
+}
+
+.ancora {
+    display: none;
+}
+
+.imagens {
+    display:flex;
+      justify-content: center;
+      padding: 50px 0px 10px 0px;
+  }
+
+.imagens2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.animes:hover > p {
+    display: flex;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    height: 35px;
+    width: 400px;
+}
+
+.animes > p {
+    display: none;
+    font-weight: bold;
+}
+
+body {
+    zoom: 90%;
+    max-height: 100%;
+}
+
+.rodape >h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: bold;
+    color: rgb(37, 33, 48);
+    display: inline-flex;
+    margin: 1px 50px 5px 50px;
+    text-align: center;
+}
+
+.rodape >p {
+    text-align: end;
+    margin: 0px 10px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 10, 48);
+}
+
+.rodape-text {
+    display: flex;
+}
+
+.rodape-text >p {
+    margin:1px 14px 1px 14px;
+font-style: italic;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+    
+    
+
+
+    html{
+        height:100%;
+    }
