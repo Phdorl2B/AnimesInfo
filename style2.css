@@ -1,12 +1,20 @@
-body{
+body, html{
     margin: 0;
     padding: 0;
-    display: block;
+    height: 100%;
+    max-height: 100%;
 }
 
 .secundario {
     background-image: linear-gradient(to bottom, #EB9A15, #EBB315);
     background-attachment: fixed;
+    
+    margin: auto;
+    display: block;
+}
+
+.videos {
+    display: flex;
 }
 
 .botao {
@@ -14,11 +22,25 @@ body{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    justify-content: center;
     background-color: rgba(134, 99, 0, 0.288);
     margin: auto;
     width: 200px;
     text-decoration-line: none;
+    display: block;
     }
 
+@media screen and (max-width:768px){
+    .videos {
+        width: 34em;
+        height: 34em;
+    }
+} 
     
+
     
+@media screen and (max-width:768){
+    .secundario {
+        zoom: 90%;
+    }
+}
