@@ -13,6 +13,7 @@
     padding: 0%;
 }
 
+
 .centro {
     display: flexbox;
     background-image: linear-gradient(to bottom, #EBE815, #8FE600);
@@ -24,6 +25,11 @@
     border-left: 2px solid black;
     border-right: 2px solid black;
     height: 117%;
+}
+
+.logo{
+    height: 100px;
+    margin-right: 10px;
 }
 
 .Titulo {
@@ -61,13 +67,14 @@
     background-position: center;
     height: 40px;
     width: 40px;
-display: block;
+display: flex;
 cursor: pointer;
 }
 
 .lista-menu{
     display: none;
-    position: absolute;;
+    flex-direction: row;
+    
     
 }
 
@@ -77,20 +84,27 @@ cursor: pointer;
  font-size:20px;
  font-weight: bold;
  font-family:monospace, sans-serif;
- color: black;
  list-style-type: none;
  margin-right: 20px;
  position: relative;
- display: inline-table;
+ display: inline;
+
  }
 
+.lista {
+    color: white;
+}
+
+.menu {
+    color: white;
+}
+
 .ancora:checked ~ .hamburguer-label .lista-menu{
-    display: block;
+    display: flex;
     position: relative;
     align-items: center;   
 }
 .hamburguer-label{
-    width:4%;
     display: grid;
 }
 
@@ -140,8 +154,8 @@ body {
   font-style: bold;
     color: rgb(37, 33, 48);
     display: inline-flex;
-    margin: 0px 120px 5px 120px;
-    text-align: center;
+    margin-right: 20%;
+    
 }
 
 .rodape >p {
@@ -162,13 +176,29 @@ font-weight: lighter;
 font-family: Arial, Helvetica, sans-serif;
 }
     
+
+.final {
+    display: block;
+    justify-content: end;
+    justify-items: end;
+    align-items: end;
+    text-align: end;
+}
     
-@media screen and (max-widht: 728px) {
+@media screen and (max-width: 768px) {
     .body{
-        zoom: 100%;
+        zoom: 80%;
     }    
+}
+
+@media screen and (max-width: 768px) {
+    .Titulo{
+        margin-inline: 25px;
+    }
 }
 
     html{
         height:100%;
     }
+
+  
