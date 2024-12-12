@@ -1,0 +1,160 @@
+htl {
+    height: 100%;
+    border-left:#8862f0be 10em solid ;
+    border-right:#8862f0be 10em solid ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+.principal {
+    background-color: #8862f0be;
+     background-attachment: fixed;
+     display: flex;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     }
+ 
+ .centro {
+     background-image: linear-gradient(to bottom, #EBE815, #8FE600);
+     width: 100%;
+     height: 100%;
+     display: flexbox;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }    
+ 
+ .Titulo {
+     text-align: center;
+     font-size: 38px;
+     border-radius: 10px;
+     padding: 15px;
+     color: #ffffff;
+     background-color: #8862f0be;
+     width: 600px;
+     margin: auto;
+     font-family: "Exo 2", sans-serif;
+     margin-left: 8em;
+     
+ }
+ 
+ .imagens {
+   display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     padding-bottom: 10px;
+ }
+ 
+ .imagens2 {
+     display: flex;
+     justify-content: center;
+     padding-bottom: 10px;
+     margin-left: 3px;;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .secundario {
+     background-image: linear-gradient(to bottom, #EB9A15, #EBB315);
+     background-attachment: fixed;
+ }
+ 
+ .botao {
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     text-align: center;
+     background-color: rgba(134, 99, 0, 0.288);
+     margin: auto;
+     width: 200px;
+ }
+ 
+ .hamburguer {
+     background-image: url("img/menu.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 40px;
+     width: 40px;
+ display: block;
+ cursor: pointer;
+ }
+ 
+ .cabeca {
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: auto;
+     position: relative;
+     margin: auto;
+     
+ }
+ 
+ .lista-menu{
+     display: none;
+     position: absolute;;
+     
+ }
+ 
+ .ancora:checked ~ .hamburguer-label .lista-menu{
+     display: block;
+     position: relative;
+     align-items: c;
+     
+ }
+ 
+ .ancora{
+     display: none;
+ }
+ 
+ .text {
+    background-color: #8862f0be;
+    color: black;
+    font-size: 20px;
+    margin-left:50em;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .animes > p {
+     display: none;
+     font-weight: bold;
+ }
+ 
+ .animes:hover > p {
+     display: block;
+     color: black;
+     background-color: white;
+     border: 1px solid black;
+     height: 35px;
+     width: 400px;
+ }
+ 
+ .lista-menu
+ .lista {
+ background-color: #8862f0be;
+ font-size:20px;
+ font-weight: bold;
+ font-family:monospace, sans-serif;
+ width:140px;
+ color: black;
+ list-style-type: none;
+ margin-right: 20px;
+ position: relative;
+ display: inline-table;
+ }
+ 
+ .hamburguer-label {
+     display: inline-block;
+ }
+ 
+ 
